@@ -1,36 +1,51 @@
 # Reporting Templates
 
-Modelos reutilizáveis para organizar documentação técnica, evidências, análise de impacto e recomendações.
+## Objetivo
 
-> Adapte cada modelo ao contexto e à audiência. Não inclua credenciais, dados pessoais ou informações confidenciais sem autorização explícita.
+Repositório com modelos reutilizáveis para documentação técnica, registro de evidências, análise de impacto e comunicação de risco.
 
-## Modelos
+## Estado
 
-- [Registro de achado técnico](templates/technical-finding.md): documentação objetiva de contexto, evidências, impacto, recomendações e reteste.
+**Em desenvolvimento.**  
+A proposta é criar modelos úteis para relatórios, conclusões e documentação técnica com foco em clareza, contexto e segurança.
 
-## Como usar
+## Áreas de foco
 
-1. Copie o modelo adequado para seu documento de trabalho.
-2. Defina contexto, escopo autorizado e público-alvo.
-3. Registre evidências mínimas, reproduzíveis e sanitizadas.
-4. Diferencie fatos observados de hipóteses e explicite limitações.
-5. Revise confidencialidade e recomendações antes de compartilhar.
-
-## Princípios
-
-- Clareza e precisão, proporcionais às evidências disponíveis.
-- Evidência suficiente, sem exposição desnecessária de dados.
-- Impacto e recomendações contextualizados.
-- Incertezas e limitações explícitas.
-- Respeito à autorização e à confidencialidade.
+- documentação técnica
+- relatórios de risco
+- evidências e contexto
+- impacto e recomendação
+- revisão e compartilhamento seguro
 
 ## Estrutura
 
 ```text
 .
-├── templates/  # Modelos reutilizáveis
-└── README.md
+├── templates/
+│   ├── technical-finding.md
+│   ├── executive-summary.md
+│   └── review-checklist.md
+├── README.md
+├── ROADMAP.md
+├── LICENSE
+└── .gitignore
 ```
+
+## Como usar
+
+1. Escolha o template mais adequado ao contexto.
+2. Ajuste o conteúdo ao público, escopo e nível de detalhamento.
+3. Registre evidências, impacto e limitações.
+4. Separe fatos observados de hipóteses e recomendações.
+5. Revise privacidade, autorização e confiabilidade antes de compartilhar.
+
+## Princípios
+
+- clareza e precisão
+- documentação baseada em evidência
+- limitação explícita
+- cuidado com confidencialidade
+- qualidade da comunicação técnica
 
 ## Licença
 
